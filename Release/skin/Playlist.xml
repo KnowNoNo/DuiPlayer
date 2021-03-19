@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="226,480">
+    <VerticalLayout name="ctnPlaylist" bkcolor="#FF111111">
+        <HorizontalLayout height="28">
+            <Edit name="editSearch" text="文件列表" bordersize="1" float="true" pos="0,0,0,0" width="193" height="27" bkcolor="#FF242527" focusbordercolor="#FF154B83" textpadding="9,3,23,3" textcolor="#FF4B4F51" disabledtextcolor="#FFA7A6AA" font="3" nativebkcolor="#FF0E0E0E" />
+            <Button name="btnSearch" float="true" pos="201,0,0,0" width="23" height="27" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_search.png&apos; source=&apos;0,0,18,18&apos; dest=&apos;0,4,18,22&apos; " hotimage="file=&apos;btn_search.png&apos; source=&apos;19,0,37,18&apos; dest=&apos;0,4,18,22&apos; " pushedimage="file=&apos;btn_search.png&apos; source=&apos;38,0,56,18&apos; dest=&apos;0,4,18,22&apos; " />
+        </HorizontalLayout>
+        <TreeView>
+            <TreeNode>
+                <HorizontalLayout>
+                    <Label visible="false" width="2" />
+                    <CheckBox />
+                    <CheckBox />
+                    <Option text="播放列表" mouse="false" textpadding="12,0,0,0" textcolor="#FFC8C6CB" disabledtextcolor="#FFA7A6AA" font="1" />
+                </HorizontalLayout>
+            </TreeNode>
+            <TreeNode>
+                <HorizontalLayout>
+                    <Label width="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <CheckBox />
+                    <CheckBox />
+                    <Option mouse="false" textcolor="#FFC8C6CB" disabledtextcolor="#FFA7A6AA" />
+                    <Label name="labPlayMode" text="顺序播放" float="true" pos="7,7,0,0" width="70" height="20" textpadding="12,0,0,0" textcolor="#00B69968" disabledtextcolor="#FFA7A6AA" font="1" />
+                    <VerticalLayout width="65">
+                        <Button name="btnPlayMode" tooltip="播放模式" float="true" pos="0,8,0,0" width="18" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_play_mode.png&apos; source=&apos;0,0,18,18&apos;" hotimage="file=&apos;btn_play_mode.png&apos; source=&apos;19,0,37,18&apos;" pushedimage="file=&apos;btn_play_mode.png&apos; source=&apos;38,0,56,18&apos;" />
+                        <Button name="btnAdd" tooltip="添加文件" float="true" pos="21,8,0,0" width="18" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_add.png&apos; source=&apos;0,0,18,18&apos;" hotimage="file=&apos;btn_add.png&apos; source=&apos;19,0,37,18&apos;" pushedimage="file=&apos;btn_add.png&apos; source=&apos;38,0,56,18&apos;" />
+                        <Button name="btnDelete" tooltip="删除文件" float="true" pos="42,8,0,0" width="18" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_delete.png&apos; source=&apos;0,0,18,18&apos;" hotimage="file=&apos;btn_delete.png&apos; source=&apos;19,0,37,18&apos;" pushedimage="file=&apos;btn_delete.png&apos; source=&apos;38,0,56,18&apos;" />
+                    </VerticalLayout>
+                </HorizontalLayout>
+            </TreeNode>
+            <TreeNode>
+                <HorizontalLayout>
+                    <Label visible="false" width="2" />
+                    <CheckBox />
+                    <CheckBox />
+                    <Option text="历史记录" mouse="false" textpadding="12,0,0,0" textcolor="#FFC8C6CB" disabledtextcolor="#FFA7A6AA" font="1" />
+                </HorizontalLayout>
+            </TreeNode>
+            <TreeNode>
+                <HorizontalLayout>
+                    <Label visible="false" width="2" />
+                    <CheckBox />
+                    <CheckBox />
+                    <Option mouse="false" textcolor="#FFC8C6CB" disabledtextcolor="#FFA7A6AA" />
+                </HorizontalLayout>
+            </TreeNode>
+        </TreeView>
+    </VerticalLayout>
+</Window>

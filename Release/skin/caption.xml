@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="854,66">
+    <HorizontalLayout name="ctnCaption" bkimage="caption_bk.png" bkcolor="#FF0E1A2F" bkcolor2="#FF060606">
+        <VerticalLayout width="550">
+            <Option name="tabPlay" text="播放" float="true" pos="5,0,0,0" width="77" height="66" textcolor="#16505783" disabledtextcolor="#FFA7A6AA" font="1" align="center" hottextcolor="#FF084DC8" group="caption" selected="true" selectedimage="light_top.png" />
+            <Button name="tabLib" text="播放列表" float="true" pos="92,0,0,0" width="77" height="66" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" />
+            <Button name="tabFind" text="截图" float="true" pos="185,0,0,0" width="77" height="66" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" />
+            <Button name="tabMine" text="下载" float="true" pos="278,0,0,0" width="77" height="66" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" />
+            <Option name="tabCloud" text="有关" float="true" pos="371,0,0,0" width="77" height="66" textcolor="#00A4998F" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" group="caption" selectedimage="light_top.png" />
+        </VerticalLayout>
+        <VerticalLayout />
+        <VerticalLayout width="100" height="65">
+            <Button name="btnMenu" float="true" pos="5,2,0,0" width="69" height="59" textcolor="#00A4998F" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;logo_w_.jpg&apos;source=&apos;0,6,69,44&apos; " pushedimage="file=&apos;logo_w.jpg&apos;source=&apos;0,6,69,44&apos; " />
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>
